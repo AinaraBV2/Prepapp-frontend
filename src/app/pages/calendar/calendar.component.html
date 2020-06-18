@@ -1,0 +1,19 @@
+<div class="row">
+    <nb-card accent="info">
+        <nb-card-body>
+            <full-calendar 
+                id="calendar"
+                defaultView="dayGridMonth" 
+                [plugins]="calendarPlugins" 
+                [locales]="locales"
+                locale="es"
+                [header]="
+                    {
+                        left: 'title',
+                        right: 'prev,next today'
+                    }"
+            >
+            </full-calendar>
+        </nb-card-body>
+    </nb-card>
+</div>
